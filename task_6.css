@@ -1,0 +1,35 @@
+/*Ваша задача написать такой css файл, который 
+по состоянию checked включать/выключать соответствующие элементы.
+Макет хранится в файле task6.png. Первая строка - исходный вид. 
+Остальные - как выглядят при нажатии на разные чекбоксы */
+
+.red{
+	background: red;
+	color: white;
+	border-radius: 7px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;   
+}
+
+.green{
+	background: green;
+	color: white;
+	border-radius: 7px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;   
+}
+
+.blue{
+	background: blue;
+	color: white;
+	border-radius: 7px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;   
+}
+
+input #red + label { 
+	color: red; 
+}
