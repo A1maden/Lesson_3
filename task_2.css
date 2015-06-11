@@ -1,8 +1,10 @@
-p:nth-child(2){
+p:nth-child(2)
+{
 	font-size: 20px;
 }
 
-p:last-child{
+p:last-child
+{
 color: #999;
 
 }

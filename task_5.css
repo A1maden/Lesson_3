@@ -1,14 +1,17 @@
 /* - background: #ddebf7; голубой  
    - background: #f2f2de; бежевый */
 
-td:nth-child(odd){
+td:nth-child(odd)
+{
 	background: #f2f2de;
 }
 
-td:first-child{
+td:first-child
+{
 	background: none;
 }
 
-tr:nth-child(even){
+tr:nth-child(even)
+{
 	background: #ddebf7;
 }

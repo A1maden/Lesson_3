@@ -1,45 +1,59 @@
 
-h1, #allotment h2, tbody tr td:first-child{
+h1, #allotment h2, tbody tr td:first-child
+{
 	color: orange;
 }
-#warehouse h2{
+
+#warehouse h2
+{
 	color: blue;
 }
 
-h1{
+h1
+{
 	text-align: right;
 }
 
-em{
+em
+{
 	background-color: green;
 	color: white;
 }
 
-p::first-letter{
+p::first-letter
+{
 	color: red;
 	font-size: 30px;
 	font-weight: bold;
 }
-ul{
+
+ul
+{
 	font-weight: bold;
 }
-#allotment .fruits-list{
+
+#allotment .fruits-list
+{
 	color: grey;
 }
 
-#allotment .vegetables-list, #warehouse .vegetables-list{
+#allotment .vegetables-list, #warehouse .vegetables-list
+{
 	color: red;
 }
 
-#warehouse .fruits-list{
+#warehouse .fruits-list
+{
 	color:green;
 }
+
 thead{
 	font-weight: bold;
 	text-align: center;
 }
 
-tbody tr td:nth-child(2), tbody tr td:nth-child(3), tbody tr td:nth-child(4){
+tbody tr td:nth-child(2), tbody tr td:nth-child(3), tbody tr td:nth-child(4)
+{
 	background-color: green;
 	color: white;
 	text-align: center;

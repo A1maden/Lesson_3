@@ -21,7 +21,7 @@ li:nth-child(5):after
 	display: inline-block;
 	text-decoration: none;
 	content: '⇱';
-	margin-left: 10px;
+	margin-left: 0px;
 	font-size: 25px;
 	color: orange;
 	transform: rotate(90deg);
