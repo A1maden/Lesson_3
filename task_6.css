@@ -1,8 +1,3 @@
-/*Ваша задача написать такой css файл, который 
-по состоянию checked включать/выключать соответствующие элементы.
-Макет хранится в файле task6.png. Первая строка - исходный вид. 
-Остальные - как выглядят при нажатии на разные чекбоксы */
-
 .red{
 	background: red;
 	color: white;
@@ -49,19 +44,20 @@ label[for="blue"]{
 	padding-right: 20px;
 }
 
-#red, #green, #blue{
-	dis play: none;
-}
 
-#red:ch ecked { 
+input:enabled { 
 display: none;
 }
 
-#green .green:chec ked { 
+input#red:checked ~ span.red{ 
 display: none;
 }
 
-input[id="red"]:checked + label{ 
+input#green:checked ~ span.green{ 
+display: none;
+}
+
+input#blue:checked ~ span.blue{ 
 display: none;
 }
 
