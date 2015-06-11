@@ -18,12 +18,12 @@ li:nth-child(6) a, li:nth-child(7) a, li:nth-child(8) a
 
 li:nth-child(5):after
 {
+	display: inline-block;
 	text-decoration: none;
-	margin: 10px;
 	content: '⇱';
+	margin-left: 10px;
 	font-size: 25px;
 	color: orange;
-	transform: rotate (90deg);
-
+	transform: rotate(90deg);
 }
 
