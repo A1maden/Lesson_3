@@ -71,3 +71,15 @@ display: none;
 display: none;
 }
 
+#red:checked ~ label[for="red"]{
+	color: #f998a4;
+}
+
+#green:checked ~ label[for="green"]{
+	color: #98f99f;
+}
+
+#blue:checked ~ label[for="blue"]{
+	color: #98adf9;
+}
+
