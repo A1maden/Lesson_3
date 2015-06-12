@@ -56,20 +56,11 @@ input:enabled
 display: none;
 }
 
-#red:checked ~ .red
+#red:checked ~ .red, #green:checked ~ .green, #blue:checked ~ .blue
 { 
 display: none;
 }
 
-#green:checked ~ .green
-{ 
-display: none;
-}
-
-#blue:checked ~ .blue
-{ 
-display: none;
-}
 
 #red:checked ~ label[for="red"]{
 	color: #f998a4;
