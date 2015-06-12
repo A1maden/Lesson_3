@@ -56,17 +56,17 @@ input:enabled
 display: none;
 }
 
-input#red:checked ~ span.red
+#red:checked ~ .red
 { 
 display: none;
 }
 
-input#green:checked ~ span.green
+#green:checked ~ .green
 { 
 display: none;
 }
 
-input#blue:checked ~ span.blue
+#blue:checked ~ .blue
 { 
 display: none;
 }
